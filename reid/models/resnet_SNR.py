@@ -20,7 +20,7 @@ def conv3x3(in_planes, out_planes, stride=1):
                      padding=1, bias=False)
 
 
-#SNR实现
+#SNR
 class ChannelGate_sub(nn.Module):
     """A mini-network that generates channel-wise gates conditioned on input tensor."""
     def __init__(self, in_channels, num_gates=None, return_gates=False,
