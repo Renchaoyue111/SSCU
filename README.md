@@ -7,6 +7,12 @@ Official PyTorch implementation of the paper Positive Style Accumulation: A Styl
 
 ![](figures/flowchart.pdf)
 
+## News
+
+**2025/10/17** We have released the official codes.
+
+**2025/07/06** Accepted by 33rd ACM International Conference on Multimedia (ACM MM25)
+
 ### 1. Setup
 
 - CUDA>=11.7
