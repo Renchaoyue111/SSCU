@@ -18,7 +18,7 @@ pip install -r requirements.txt
 - Download [ViT pre-trained model](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth) and put it under "./checkpoints"
 - Training Data
   
-  Download Market1501, MSMT17 and CUHK03 datasets from http://www.liangzheng.org/Project/project_reid.html to <path_to_root_of_datasets>.
+  Download Market1501, MSMT17 and CUHK03 datasets from http://www.liangzheng.org/Project/project_reid.html 
 
    Unzip all datasets and ensure the file structure is as follow:
    
