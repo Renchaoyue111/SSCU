@@ -2,7 +2,7 @@
 
 ## Start Guideline
 
-Official PyTorch implementation of the paper Positive Style Accumulation: A Style Screening and Continuous Utilization Framework for Federated DG-ReID. (MM 2025)[arXiv](https://arxiv.org/abs/2507.16238)
+Official PyTorch implementation of the paper Positive Style Accumulation: A Style Screening and Continuous Utilization Framework for Federated DG-ReID. (MM 2025)[Paper](https://dl.acm.org/doi/epdf/10.1145/3746027.3755549)
 
 ![](./figures/Method.png)
 
@@ -65,14 +65,12 @@ CUDA_VISIBLE_DEVICES=1 python -W ignore FedDG_SSCU.py -td market1501 --logs-dir 
 Please cite our work in your publications if it helps your research:
 
 ```
-@misc{xu2025styleaccumulation,
-      title={Positive Style Accumulation: A Style Screening and Continuous Utilization Framework for Federated DG-ReID}, 
-      author={Xin Xu and Chaoyue Ren and Wei Liu and Wenke Huang and Bin Yang and Zhixi Yu and Kui Jiang},
-      year={2025},
-      eprint={2507.16238},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2507.16238}, 
+@inproceedings{xu2025positive,
+  title={Positive Style Accumulation: A Style Screening and Continuous Utilization Framework for Federated DG-ReID},
+  author={Xu, Xin and Ren, Chaoyue and Liu, Wei and Huang, Wenke and Yang, Bin and Yu, Zhixi and Jiang, Kui},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={8527--8536},
+  year={2025}
 }
 ```
 
